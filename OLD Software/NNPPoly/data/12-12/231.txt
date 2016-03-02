@@ -1,0 +1,8 @@
++1. if partial rem then no cd if due less and ddate is after 10 days.
+#2. dropdown client list at all
++3. records delete option
++4. debit notes problem 12-12-2013
+#5. interest calc -> a2z client, filter, +auto-adjust report
++6. no-of-copy in debit notes
++7. print problem amar polufils november 2014
++8. DELETE OPTION IN SIMPLE REPORT

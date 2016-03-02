@@ -1,0 +1,14 @@
+NNPPoly
+
+users - payments
+import/export ledger
+datewise report - from-to
+date-compra - 
+
+
+users management
+
+per user
+	-rildispatch + actual payments
+	-interest calculation
+	-bonus/discount calculation

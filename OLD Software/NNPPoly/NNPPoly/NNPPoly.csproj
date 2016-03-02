@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2620F1DF-8B5D-4304-B399-26A3F7FF523D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NNPPoly</RootNamespace>
+    <AssemblyName>NNPPoly</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.wcodez.com</SupportUrl>
+    <ProductName>NNP Poly</ProductName>
+    <PublisherName>WebcodeZ Infoway</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NNPPoly.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NNPPoly-DarkLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlRenderer">
+      <HintPath>..\dlls\HtmlRenderer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activation.Designer.cs">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectionList.Designer.cs">
+      <DependentUpon>CollectionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatafileLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatafileLoader.Designer.cs">
+      <DependentUpon>DatafileLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitAdvisePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebitAdvisePrinter.Designer.cs">
+      <DependentUpon>DebitAdvisePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitNoteEntries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebitNoteEntries.Designer.cs">
+      <DependentUpon>DebitNoteEntries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitNotePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebitNotePrinter.Designer.cs">
+      <DependentUpon>DebitNotePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebitNotes.Designer.cs">
+      <DependentUpon>DebitNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteConflicPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteConflicPayments.Designer.cs">
+      <DependentUpon>DeleteConflicPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditGrade.Designer.cs">
+      <DependentUpon>EditGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUserAccount.Designer.cs">
+      <DependentUpon>EditUserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterPeriod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterPeriod.Designer.cs">
+      <DependentUpon>FilterPeriod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetValues.Designer.cs">
+      <DependentUpon>frmSetValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralReport.Designer.cs">
+      <DependentUpon>GeneralReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetValue.Designer.cs">
+      <DependentUpon>GetValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradesSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradesSettings.Designer.cs">
+      <DependentUpon>GradesSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportPayments.Designer.cs">
+      <DependentUpon>ImportPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportSupply.Designer.cs">
+      <DependentUpon>ImportSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestAdviseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestAdviseList.Designer.cs">
+      <DependentUpon>InterestAdviseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs" />
+    <Compile Include="MailSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailSettings.Designer.cs">
+      <DependentUpon>MailSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSGSender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSGSender.Designer.cs">
+      <DependentUpon>MSGSender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewClients.Designer.cs">
+      <DependentUpon>NewClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPayment.Designer.cs">
+      <DependentUpon>NewPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoOfPrints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoOfPrints.Designer.cs">
+      <DependentUpon>NoOfPrints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterTraySelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrinterTraySelection.Designer.cs">
+      <DependentUpon>PrinterTraySelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintFormatSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintFormatSettings.Designer.cs">
+      <DependentUpon>PrintFormatSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriorityTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriorityTypes.Designer.cs">
+      <DependentUpon>PriorityTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Records.Designer.cs">
+      <DependentUpon>Records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepMonthSel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepMonthSel.Designer.cs">
+      <DependentUpon>RepMonthSel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectContactDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectContactDetails.Designer.cs">
+      <DependentUpon>SelectContactDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendCustomMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendCustomMessage.Designer.cs">
+      <DependentUpon>SendCustomMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMSSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMSSettings.Designer.cs">
+      <DependentUpon>SMSSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecialTypes.Designer.cs">
+      <DependentUpon>SpecialTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitingDialog.Designer.cs">
+      <DependentUpon>WaitingDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Activation.resx">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectionList.resx">
+      <DependentUpon>CollectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatafileLoader.resx">
+      <DependentUpon>DatafileLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitAdvisePrinter.resx">
+      <DependentUpon>DebitAdvisePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitNoteEntries.resx">
+      <DependentUpon>DebitNoteEntries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitNotePrinter.resx">
+      <DependentUpon>DebitNotePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitNotes.resx">
+      <DependentUpon>DebitNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteConflicPayments.resx">
+      <DependentUpon>DeleteConflicPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditGrade.resx">
+      <DependentUpon>EditGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUserAccount.resx">
+      <DependentUpon>EditUserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterPeriod.resx">
+      <DependentUpon>FilterPeriod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetValues.resx">
+      <DependentUpon>frmSetValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralReport.resx">
+      <DependentUpon>GeneralReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetValue.resx">
+      <DependentUpon>GetValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradesSettings.resx">
+      <DependentUpon>GradesSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportPayments.resx">
+      <DependentUpon>ImportPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportSupply.resx">
+      <DependentUpon>ImportSupply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestAdviseList.resx">
+      <DependentUpon>InterestAdviseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailSettings.resx">
+      <DependentUpon>MailSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSGSender.resx">
+      <DependentUpon>MSGSender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClients.resx">
+      <DependentUpon>NewClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPayment.resx">
+      <DependentUpon>NewPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoOfPrints.resx">
+      <DependentUpon>NoOfPrints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrinterTraySelection.resx">
+      <DependentUpon>PrinterTraySelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintFormatSettings.resx">
+      <DependentUpon>PrintFormatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriorityTypes.resx">
+      <DependentUpon>PriorityTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Records.resx">
+      <DependentUpon>Records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepMonthSel.resx">
+      <DependentUpon>RepMonthSel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectContactDetails.resx">
+      <DependentUpon>SelectContactDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendCustomMessage.resx">
+      <DependentUpon>SendCustomMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMSSettings.resx">
+      <DependentUpon>SMSSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecialTypes.resx">
+      <DependentUpon>SpecialTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitingDialog.resx">
+      <DependentUpon>WaitingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\DebitAdvisePrintFormat.docx" />
+    <None Include="Resources\DebitNotePrintFormat.docx" />
+    <None Include="Resources\DN Formate.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kate.ico" />
+    <Content Include="NNPPoly-DarkLogo.ico" />
+    <None Include="Resources\webcodez infoway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datastore\Datastore.csproj">
+      <Project>{6B0E360F-827E-4F14-98E3-6FE128389C45}</Project>
+      <Name>Datastore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="kate.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

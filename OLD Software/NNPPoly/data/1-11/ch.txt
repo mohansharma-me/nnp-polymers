@@ -1,0 +1,6 @@
+1. calculation
+	25-10 debit
+	31-10 credit (partial)
+	firbhi CD counted.
+2. Interest Calculation as same as collection list with allowable to view that report.
+3. 

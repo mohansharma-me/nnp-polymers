@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{742AF66C-BA91-433C-BBE6-3F3F5C4CA49A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NNPPoly</RootNamespace>
+    <AssemblyName>NNPPoly</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NNPPoly-DarkLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlRenderer">
+      <HintPath>..\..\..\..\Development Tools\Different Modules\C#\HTMLRenderer\HtmlRenderer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ObjectListView, Version=2.8.1.0, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Program Files (x86)\System.Data.SQLite\2010\bin\System.Data.SQLite.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\Client.cs" />
+    <Compile Include="classes\collection_list\Collection.cs" />
+    <Compile Include="classes\Company.cs" />
+    <Compile Include="classes\DataReflector.cs" />
+    <Compile Include="classes\DebitNote.cs" />
+    <Compile Include="classes\DebitPriorities.cs" />
+    <Compile Include="classes\Grade.cs" />
+    <Compile Include="classes\GradeGroup.cs" />
+    <Compile Include="classes\GradeSession.cs" />
+    <Compile Include="classes\Holiday.cs" />
+    <Compile Include="classes\MessageHolder.cs" />
+    <Compile Include="classes\mou_report\Gap.cs" />
+    <Compile Include="classes\mou_report\Row.cs" />
+    <Compile Include="classes\Scheme.cs" />
+    <Compile Include="classes\SchemeData.cs" />
+    <Compile Include="classes\_GradeSession.cs" />
+    <Compile Include="classes\InterestAdviseRow.cs" />
+    <Compile Include="classes\MyList.cs" />
+    <Compile Include="classes\old_version\AllOldClasses.cs" />
+    <Compile Include="classes\old_version\DataFile.cs" />
+    <Compile Include="classes\old_version\eXML.cs" />
+    <Compile Include="classes\Payment.cs" />
+    <Compile Include="classes\IntRate.cs" />
+    <Compile Include="classes\Record.cs" />
+    <Compile Include="classes\report1\AutoRow.cs" />
+    <Compile Include="classes\report1\Row.cs" />
+    <Compile Include="classes\report1\RowType.cs" />
+    <Compile Include="classes\upload_mgr\Row.cs" />
+    <Compile Include="forms\frmAskUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmAskUser.Designer.cs">
+      <DependentUpon>frmAskUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmClient.Designer.cs">
+      <DependentUpon>frmClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmClientSelectioncs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmClientSelectioncs.Designer.cs">
+      <DependentUpon>frmClientSelectioncs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmCollectionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmCollectionList.Designer.cs">
+      <DependentUpon>frmCollectionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDatabaseSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDatabaseSelection.Designer.cs">
+      <DependentUpon>frmDatabaseSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDebiPrioritiesAndTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDebiPrioritiesAndTypes.Designer.cs">
+      <DependentUpon>frmDebiPrioritiesAndTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDebitAdvisePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDebitAdvisePrinter.Designer.cs">
+      <DependentUpon>frmDebitAdvisePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDebitNoteEntries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDebitNoteEntries.Designer.cs">
+      <DependentUpon>frmDebitNoteEntries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDebitNotePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDebitNotePrinter.Designer.cs">
+      <DependentUpon>frmDebitNotePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmDebitNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmDebitNotes.Designer.cs">
+      <DependentUpon>frmDebitNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmEmailSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmEmailSettings.Designer.cs">
+      <DependentUpon>frmEmailSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmEnvelopePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmEnvelopePrinter.Designer.cs">
+      <DependentUpon>frmEnvelopePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmGrade.Designer.cs">
+      <DependentUpon>frmGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmModifySchemes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmModifySchemes.Designer.cs">
+      <DependentUpon>frmModifySchemes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewGradeGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewGradeGroup.Designer.cs">
+      <DependentUpon>frmNewGradeGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmGradeGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmGradeGroups.Designer.cs">
+      <DependentUpon>frmGradeGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmGrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmGrades.Designer.cs">
+      <DependentUpon>frmGrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmHolidays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmHolidays.Designer.cs">
+      <DependentUpon>frmHolidays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmInterestAdvise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmInterestAdvise.Designer.cs">
+      <DependentUpon>frmInterestAdvise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmMessageSender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmMessageSender.Designer.cs">
+      <DependentUpon>frmMessageSender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewClient.Designer.cs">
+      <DependentUpon>frmNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewCompany.Designer.cs">
+      <DependentUpon>frmNewCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewEntry.Designer.cs">
+      <DependentUpon>frmNewEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewGradeSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewGradeSession.Designer.cs">
+      <DependentUpon>frmNewGradeSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewScheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewScheme.Designer.cs">
+      <DependentUpon>frmNewScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmNewSchemeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmNewSchemeData.Designer.cs">
+      <DependentUpon>frmNewSchemeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmPrintFormatSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmPrintFormatSettings.Designer.cs">
+      <DependentUpon>frmPrintFormatSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmRecords.Designer.cs">
+      <DependentUpon>frmRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSchemeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSchemeData.Designer.cs">
+      <DependentUpon>frmSchemeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSchemes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSchemes.Designer.cs">
+      <DependentUpon>frmSchemes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSendCustomMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSendCustomMessages.Designer.cs">
+      <DependentUpon>frmSendCustomMessages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSetValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSetValues.designer.cs">
+      <DependentUpon>frmSetValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSMSSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSMSSettings.Designer.cs">
+      <DependentUpon>frmSMSSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\HashTable.cs" />
+    <Compile Include="forms\reports\frmReport1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\reports\frmReport1.Designer.cs">
+      <DependentUpon>frmReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmActivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmActivation.designer.cs">
+      <DependentUpon>frmActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess.Designer.cs">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUploadMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUploadMgr.Designer.cs">
+      <DependentUpon>frmUploadMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job.cs" />
+    <Compile Include="LoadingCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoadingCircle.designer.cs">
+      <DependentUpon>LoadingCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringSecurity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NNPPoly-DarkLogo.ico" />
+    <Content Include="ObjectListView.dll" />
+    <None Include="Resources\a5_debitadvise_template.docx" />
+    <None Include="Resources\envelope_withDesign.docx" />
+    <None Include="Resources\envelope_withDesign_template.docx" />
+    <None Include="Resources\envelope_withoutDesign.docx" />
+    <None Include="Resources\macro.xls.template.xlsm" />
+    <None Include="Resources\no.png" />
+    <None Include="Resources\ClientPanel.png" />
+    <None Include="Resources\Company.png" />
+    <None Include="Resources\DebitAdvisePrintFormat.docx" />
+    <None Include="Resources\DebitNotePrintFormat.docx" />
+    <None Include="Resources\DN Formate.docx" />
+    <None Include="Resources\Spreadsheet.png" />
+    <None Include="Resources\table_reload.png" />
+    <None Include="Resources\160854003.png" />
+    <None Include="Resources\plus_blue.png" />
+    <None Include="Resources\plus_green.png" />
+    <None Include="Resources\train.png" />
+    <None Include="Resources\arrow_plain_green_W.png" />
+    <None Include="Resources\tag_blue.png" />
+    <None Include="Resources\arrow_plain_blue_W.png" />
+    <None Include="Resources\arrow_plain_blue_E.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\blue-records.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\collection list.png" />
+    <None Include="Resources\interest advise list.png" />
+    <None Include="Resources\table_pencil_green.png" />
+    <None Include="Resources\1424350969_Add-Male-User.png" />
+    <None Include="Resources\webcodez infoway white shadowed.png" />
+    <None Include="Resources\xls.template.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\frmAskUser.resx">
+      <DependentUpon>frmAskUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmClient.resx">
+      <DependentUpon>frmClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmClientSelectioncs.resx">
+      <DependentUpon>frmClientSelectioncs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmCollectionList.resx">
+      <DependentUpon>frmCollectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDatabaseSelection.resx">
+      <DependentUpon>frmDatabaseSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDebiPrioritiesAndTypes.resx">
+      <DependentUpon>frmDebiPrioritiesAndTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDebitAdvisePrinter.resx">
+      <DependentUpon>frmDebitAdvisePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDebitNoteEntries.resx">
+      <DependentUpon>frmDebitNoteEntries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDebitNotePrinter.resx">
+      <DependentUpon>frmDebitNotePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmDebitNotes.resx">
+      <DependentUpon>frmDebitNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmEmailSettings.resx">
+      <DependentUpon>frmEmailSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmEnvelopePrinter.resx">
+      <DependentUpon>frmEnvelopePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmGrade.resx">
+      <DependentUpon>frmGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmModifySchemes.resx">
+      <DependentUpon>frmModifySchemes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewGradeGroup.resx">
+      <DependentUpon>frmNewGradeGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmGradeGroups.resx">
+      <DependentUpon>frmGradeGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmGrades.resx">
+      <DependentUpon>frmGrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmHolidays.resx">
+      <DependentUpon>frmHolidays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmInterestAdvise.resx">
+      <DependentUpon>frmInterestAdvise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmMessageSender.resx">
+      <DependentUpon>frmMessageSender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewClient.resx">
+      <DependentUpon>frmNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewCompany.resx">
+      <DependentUpon>frmNewCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewEntry.resx">
+      <DependentUpon>frmNewEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewGradeSession.resx">
+      <DependentUpon>frmNewGradeSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewScheme.resx">
+      <DependentUpon>frmNewScheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmNewSchemeData.resx">
+      <DependentUpon>frmNewSchemeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmPrintFormatSettings.resx">
+      <DependentUpon>frmPrintFormatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRecords.resx">
+      <DependentUpon>frmRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSchemeData.resx">
+      <DependentUpon>frmSchemeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSchemes.resx">
+      <DependentUpon>frmSchemes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSendCustomMessages.resx">
+      <DependentUpon>frmSendCustomMessages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSetValues.resx">
+      <DependentUpon>frmSetValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSMSSettings.resx">
+      <DependentUpon>frmSMSSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\reports\frmReport1.resx">
+      <DependentUpon>frmReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmActivation.resx">
+      <DependentUpon>frmActivation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess.resx">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUploadMgr.resx">
+      <DependentUpon>frmUploadMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

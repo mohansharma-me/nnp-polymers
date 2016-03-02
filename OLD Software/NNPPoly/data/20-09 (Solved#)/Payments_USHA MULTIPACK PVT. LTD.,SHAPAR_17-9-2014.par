@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<ArrayOfPayment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Payment>
+    <ID>1</ID>
+    <Date>2014-08-10T00:00:00</Date>
+    <DocChqNo>5050194693</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>DebitImported</Particulars>
+    <MT>10</MT>
+    <Credit>0</Credit>
+    <Debit>1385652</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade>LL20FA020</Grade>
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>2</ID>
+    <Date>2014-08-10T00:00:00</Date>
+    <DocChqNo>5050194692</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>DebitImported</Particulars>
+    <MT>5</MT>
+    <Credit>0</Credit>
+    <Debit>731935</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade>1005FY20</Grade>
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>3</ID>
+    <Date>2014-08-10T12:00:00</Date>
+    <DocChqNo>5050194693</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>DebitImported</Particulars>
+    <MT>10</MT>
+    <Credit>0</Credit>
+    <Debit>1385652</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade>LL20FA020</Grade>
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>4</ID>
+    <Date>2014-08-10T12:00:00</Date>
+    <DocChqNo>5050194692</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>DebitImported</Particulars>
+    <MT>5</MT>
+    <Credit>0</Credit>
+    <Debit>731935</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade>1005FY20</Grade>
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>5</ID>
+    <Date>2014-09-14T12:30:37.0165547+05:30</Date>
+    <DocChqNo>19</DocChqNo>
+    <Type>Jrnl</Type>
+    <Particulars>Debit Note Print</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>30000</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+</ArrayOfPayment>

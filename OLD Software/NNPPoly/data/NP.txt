@@ -1,0 +1,12 @@
+left 1
+top .3
+bottom .2
+right .2
+
+%title% bold
+bottom-line deleted
+qty .000 amt date grade - centered
+reset debit_no
+------------------------------------
+records datagridview
+

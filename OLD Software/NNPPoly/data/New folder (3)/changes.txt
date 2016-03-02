@@ -1,0 +1,10 @@
++1. minus opening balance, === rem-in-ap [ is there need of remaining balance in a.p in next month ? ]
++2. 30-4-14 1-0-1 no cd/iamt (get that)
++3. Dark-Border in LV
+-4. 0 -> 0.00
++5. common-conflict -> ask (remove auto)
++6. Remove excel-bg-color -> in print only.
++7. npe->New entry
++8. Identification - 
++9. RemBal - Highlight
+	8,9 FSIZE

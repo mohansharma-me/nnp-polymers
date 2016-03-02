@@ -1,0 +1,187 @@
+Database Structure ----------------
+Table: company
+Fields:
+	company_id : pk
+	company_name
+	company_address
+	company_logo
+	
+	create table if not exists company (company_id integer primary key autoincrement, company_name text, company_address text, company_logo blob)
+
+Table: client
+Fields:
+	client_id : pk
+	client_company_id : integer
+	client_name : 
+	client_about
+	client_openingbalance : opening balance
+	client_openingbalance_type : debit, credit
+	client_closingbalance : not colum in db
+	-client_int_rate1 : interest rate 1
+	-client_int_rate2 : interest rate 2
+	-client_cutoffdays
+	client_footext
+	client_lessdays
+	client_mobile
+	client_email
+	
+	CREATE TABLE IF NOT EXISTS `client` (client_id int, client_name text, client_about text, client_openingbalance double, client_openingbalance_type text,  client_lessdays long, client_mobile text, client_email text, client_footext text, primary key(client_id));
+	
+Table: intrate
+Fields:
+	ir_id
+	ir_client_id
+	ir_rate : double
+	ir_days : long
+	
+	create table if not exists intrates (ir_id int, ir_client_id int references client(client_id) on update cascade, ir_rate double, ir_days long, primary key(ir_id));
+
+Table: payments
+Fields:
+	payment_id
+	payment_client_id
+	payment_date
+	payment_invoice
+	payment_type
+	payment_particulars
+	payment_mode : credit, debit
+	payment_amount
+	payment_mt
+	payment_grade_id
+	payment_isdnote_payment : true if payment entry is of debit note for debit advise row otherwise false
+	payment_highlighted : true,false
+	
+	create table payment (payment_id integer primary key autoincrement, payment_client_id integer, payment_date date, payment_invoice text, payment_type text, payment_particulars text, payment_mode text, payment_amount double, payment_mt double, payment_grade_id integer, payment_isdnote_payment integer, payment_highlighted int)
+	
+
+Table: grades
+	grade_id
+	grade_company_id
+	grade_group_id
+	grade_code
+
+	create table if not exists grade(grade_id integer primary key autoincrement, grade_company_id integer, grade_group_id integer, grade_code text)
+	
+Table: grade_sessions
+	gs_id
+	gs_company_id
+	gs_from_date
+	gs_to_date
+	
+	create table if not exists grade_session(gs_id integer primary key autoincrement, gs_company_id integer, gs_from_date date, gs_to_date date)
+	
+	*old
+	gs_id
+	gs_grade_id
+	gs_session_date
+	gs_amount
+	
+	create table if not exists grade_session(gs_id integer primary key autoincrement, gs_grade_id integer, gs_session_date date, gs_amount double)
+
+Table: grade_amounts
+	ga_id
+	ga_session_id
+	ga_grade_id
+	ga_amount
+	
+	create table if not exists grade_amount(ga_id integer primary key autoincrement, ga_session_id integer, ga_grade_id integer, ga_amount integer)
+	
+Table: debits
+Fields:
+	debit_id
+	debit_client_id
+	debit_isnote : true if its debit note entry or false for debit advise entry
+	debit_note_no
+	debit_date
+	
+	create table if not exists debitnote(dn_id integer primary key autoincrement, dn_client_id integer, dn_isnote integer, dn_no long, dn_date date)
+
+Table: debits_payments
+Fields
+	dp_id
+	dp_debit_id
+	dp_payment_id
+	
+	create table if not exists debitnote_entries(de_id integer primary key autoincrement, de_debit_id integer, de_payment_id integer)
+
+
+Table: debit_priorities
+Fields:
+	dp_id
+	dp_company_id
+	dp_type
+	dp_special : true,false
+	
+	create table if not exists debit_priorities(dp_id integer primary key autoincrement, dp_company_id integer ,dp_type text, dp_special int)
+
+
+
+Table: general_settings
+	gs_company_id
+
+	<DebitNotes Printer Format Settings>
+	X-ds_title
+	ds_printer
+	ds_dnote_midrow
+	ds_currentdnote_no
+	ds_dnote_tray
+	ds_dadvise_tray
+	ds_envelope_tray
+
+	<SMS Settings>
+	ss_apilink
+	ss_nod_requestorder
+	ss_msg_collection
+	ss_msg_despatch
+	ss_msg_stock
+	ss_msg_orderrequest
+
+	<Email Settings>
+	es_email
+	es_username
+	es_password
+	es_footer
+	es_msg_collection
+	es_msg_despatch
+	es_msg_stock
+	es_msg_orderrequest
+	
+	create table if not exists general_settings(gs_company_id integer, ds_title text, ds_dnote_midrow text, ds_currentdnote_no long, ds_dnote_tray text, ds_dadvise_tray text, ds_envelope_tray text, ss_apilink text, ss_nod_requestorder text, es_email text, es_username text, es_password text, es_footer text)
+	+alert add collection, despatch, stock and orderrequest
+	
+	
+Table: grade_group
+	gg_id
+	gg_company_id
+	gg_name
+	gg_qty
+	gg_monthly_percentage
+	gg_quaterly_percentage
+	gg_yearly_percentage
+	
+	create table if not exists grade_group(gg_id integer primary key autoincrement, gg_company_id integer, gg_name text, gg_qty text, gg_monthly_percentage double, gg_quaterly_percentage double, gg_yearly_percentage double)
+	
+Table: scheme
+	scheme_id
+	scheme_client_id
+	scheme_year
+	
+	create table if not exists scheme(scheme_id integer primary key autoincrement, scheme_client_id integer, scheme_year integer)
+
+Table: scheme_params
+	sp_id
+	sp_scheme_id
+	sp_group_id
+	sp_group_qty
+	sp_month
+	
+	create table if not exists scheme_params(sp_id integer primary key autoincrement, sp_scheme_id integer, sp_group_id integer, sp_group_qty double, sp_month date)
+	
+Table: scheme_data
+	sd_id
+	sd_client_id
+	sd_grade_id
+	sd_date
+	sd_qty
+	
+	create table if not exists scheme_data(sd_id integer primary key autoincrement, sd_client_id integer, sd_grade_id integer, sd_date date, sd_qty double)

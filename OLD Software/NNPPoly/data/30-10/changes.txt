@@ -1,0 +1,4 @@
+1. Print Format of Collection List
+2. Print Format of Client List
+3. Email address having double dots
+4. Filters in send custom message->select contacts

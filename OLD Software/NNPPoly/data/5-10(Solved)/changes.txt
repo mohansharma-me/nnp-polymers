@@ -1,0 +1,5 @@
++0. Debit/Advise Print Directly - NoOfCopy Problem
++1. Debit note/advise database (Edit/delete mode)
++2. Ask cutoff days for new customers (grade amount)
++3. Link with DN No debit entry in perticular client. ()
++4. Debit advises ma TOT QTY AMT

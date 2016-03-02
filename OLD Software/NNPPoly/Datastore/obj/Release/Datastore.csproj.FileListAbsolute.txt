@@ -1,0 +1,10 @@
+E:\Projects\Visio\NNPPoly\Datastore\bin\Release\Datastore.dll
+E:\Projects\Visio\NNPPoly\Datastore\bin\Release\Datastore.pdb
+E:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.csprojResolveAssemblyReference.cache
+E:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.dll
+E:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.pdb
+D:\Projects\Visio\NNPPoly\Datastore\bin\Release\Datastore.dll
+D:\Projects\Visio\NNPPoly\Datastore\bin\Release\Datastore.pdb
+D:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.csprojResolveAssemblyReference.cache
+D:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.dll
+D:\Projects\Visio\NNPPoly\Datastore\obj\Release\Datastore.pdb

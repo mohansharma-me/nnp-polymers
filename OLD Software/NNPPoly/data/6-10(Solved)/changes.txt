@@ -1,0 +1,4 @@
++1. Debit note isn't shown.
++2. Debit note print-directly.
++3. Debit note double reflection.
++4. Record should reflect current session only.

@@ -1,0 +1,668 @@
+<?xml version="1.0"?>
+<ArrayOfPayment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Payment>
+    <ID>1</ID>
+    <Date>2014-04-02T12:00:00</Date>
+    <DocChqNo>LC</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+LC DT.2/4/14</Particulars>
+    <Credit>3132738</Credit>
+    <Debit>0</Debit>
+    <Remain>3132738</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>2</ID>
+    <Date>2014-04-05T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+RTGS DT.5/4/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>3132738</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>3</ID>
+    <Date>2014-04-05T12:00:00</Date>
+    <DocChqNo>11726</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+AGAINST LC NO.2067314LC0000011</Particulars>
+    <Credit>8000</Credit>
+    <Debit>0</Debit>
+    <Remain>8000</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>4</ID>
+    <Date>2014-04-11T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+RTGS DT.11/4/14</Particulars>
+    <Credit>1533973</Credit>
+    <Debit>0</Debit>
+    <Remain>1533973</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>5</ID>
+    <Date>2014-04-12T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+RTGS DT.12/4/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>1533933</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>6</ID>
+    <Date>2014-04-14T12:00:00</Date>
+    <DocChqNo>ET FAIL</DocChqNo>
+    <Type>Jrnl</Type>
+    <Particulars>RIL (PP-DI) JAMNAGAR-EOU A/C
+ET FAILURE CHARGE DEBITED BY RIL AS PER DN NO.3100000487 DT.14/4/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>8500</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>7</ID>
+    <Date>2014-04-15T12:00:00</Date>
+    <DocChqNo>INT OF ET FAIL</DocChqNo>
+    <Type>Jrnl</Type>
+    <Particulars>RIL (PP-DI) JAMNAGAR-EOU A/C
+RIL DN NO.3250066535 DT.15/4/14 CREDITED TO PP-JAM A/C</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>9931</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>8</ID>
+    <Date>2014-04-26T12:00:00</Date>
+    <DocChqNo>11841</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+- DT.24/4/14</Particulars>
+    <Credit>51298</Credit>
+    <Debit>0</Debit>
+    <Remain>51298</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>9</ID>
+    <Date>2014-04-26T12:00:00</Date>
+    <DocChqNo>11849</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+- DT.24/4/14</Particulars>
+    <Credit>22978</Credit>
+    <Debit>0</Debit>
+    <Remain>22978</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>10</ID>
+    <Date>2014-04-26T12:00:00</Date>
+    <DocChqNo>11845</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+- DT.24/4/14</Particulars>
+    <Credit>11837</Credit>
+    <Debit>0</Debit>
+    <Remain>11837</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>11</ID>
+    <Date>2014-04-26T12:00:00</Date>
+    <DocChqNo>11844</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+- DT.24/4/14</Particulars>
+    <Credit>23674</Credit>
+    <Debit>0</Debit>
+    <Remain>23674</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>12</ID>
+    <Date>2014-04-30T12:00:00</Date>
+    <DocChqNo>INT APR</DocChqNo>
+    <Type>JRNL</Type>
+    <Particulars>INTEREST A/C
+BEING AMT.DEBITED TO PLASTENE POLYFILMS FOR INTEREST,FOR THE MONTH OF APRIL -14,AS PER DEBITE NOTE NO. NNP/INT/APRIL-14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>100</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>13</ID>
+    <Date>2014-05-12T12:00:00</Date>
+    <DocChqNo>STP</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+STP DT.12/5/14</Particulars>
+    <Credit>18431</Credit>
+    <Debit>0</Debit>
+    <Remain>18431</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>14</ID>
+    <Date>2014-06-13T12:00:00</Date>
+    <DocChqNo>ET FAIL</DocChqNo>
+    <Type>Jrnl</Type>
+    <Particulars>RIL (PP-DI) JAMNAGAR-EOU A/C
+ET FAILURE CHARGE DEBITED BY RIL AS PER DN.NO.3100004698 DT.13/6/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>1000</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>15</ID>
+    <Date>2014-06-16T12:00:00</Date>
+    <DocChqNo>INT ON ET FAIL</DocChqNo>
+    <Type>Jrnl</Type>
+    <Particulars>RIL (PP-DI) JAMNAGAR-EOU A/C
+LATE PAYMENT CHARGE DEBITED BY RIL DT.16/6/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>2124</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>16</ID>
+    <Date>2014-06-18T12:00:00</Date>
+    <DocChqNo>LC</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+LC DT.18/6/14</Particulars>
+    <Credit>5960214</Credit>
+    <Debit>0</Debit>
+    <Remain>5960214</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>17</ID>
+    <Date>2014-06-18T12:00:00</Date>
+    <DocChqNo>FT</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+FT DT.18/6/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>5960214</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>18</ID>
+    <Date>2014-06-28T12:00:00</Date>
+    <DocChqNo>LC</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+LC DT.28/6/14</Particulars>
+    <Credit>4558178</Credit>
+    <Debit>0</Debit>
+    <Remain>4558178</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>19</ID>
+    <Date>2014-06-28T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+RTGS DT.28/6/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>4558178</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>20</ID>
+    <Date>2014-06-30T12:00:00</Date>
+    <DocChqNo>899</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+HDFC BANK DT.28/6/14</Particulars>
+    <Credit>1000</Credit>
+    <Debit>0</Debit>
+    <Remain>1000</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>21</ID>
+    <Date>2014-07-07T12:00:00</Date>
+    <DocChqNo>LC</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+LC DT.7/7/14</Particulars>
+    <Credit>4605696</Credit>
+    <Debit>0</Debit>
+    <Remain>4605696</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>22</ID>
+    <Date>2014-07-07T12:00:00</Date>
+    <DocChqNo>FT</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+FT DT.7/7/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>3105696</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>23</ID>
+    <Date>2014-07-09T12:00:00</Date>
+    <DocChqNo>5110107080</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+    <MT>3.000</MT>
+    <Credit>0</Credit>
+    <Debit>377693</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>24</ID>
+    <Date>2014-07-11T12:00:00</Date>
+    <DocChqNo>-</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>STATE BANK OF INDIA A/C 32551703305
+LATE PAYMENT CHARGE DEBITED BY SBI DT.11/7/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>635</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>25</ID>
+    <Date>2014-07-12T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010430001032
+LC DT.12/7/14</Particulars>
+    <Credit>1502377</Credit>
+    <Debit>0</Debit>
+    <Remain>1502377</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>26</ID>
+    <Date>2014-07-12T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>HDFC BANK A/C NO.01010430001032
+RTGS DT.12/7/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>1502377</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>27</ID>
+    <Date>2014-07-25T12:00:00</Date>
+    <DocChqNo>4368</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>CITIZENS CO.OP.BANK LTD. C.C.912
+RTGS DT.24/7/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>1162265</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>30</ID>
+    <Date>2014-09-29T12:00:00</Date>
+    <DocChqNo>LC</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>HDFC BANK A/C NO.01010430001032
+LC DT.29/9/14</Particulars>
+    <Credit>6121620</Credit>
+    <Debit>0</Debit>
+    <Remain>6121620</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>31</ID>
+    <Date>2014-09-29T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>HDFC BANK A/C NO.01010430001032
+RTGS DT.29/9/14</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>5386340</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>37</ID>
+    <Date>2014-10-08T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>ImportedPayments</Particulars>
+    <MT />
+    <Credit>12942</Credit>
+    <Debit>0</Debit>
+    <Remain>12942</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>38</ID>
+    <Date>2014-10-09T00:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>ImportedPayments</Particulars>
+    <MT />
+    <Credit>2229863</Credit>
+    <Debit>0</Debit>
+    <Remain>2229863</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>36</ID>
+    <Date>2014-10-10T00:00:00</Date>
+    <DocChqNo>5110111486</DocChqNo>
+    <Type>Sale</Type>
+    <Particulars>DebitImported</Particulars>
+    <MT>6</MT>
+    <Credit>0</Credit>
+    <Debit>784877</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade>H350FG</Grade>
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>42</ID>
+    <Date>2014-10-11T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>BPmt</Type>
+    <Particulars>RTGS</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>2274723</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>39</ID>
+    <Date>2014-10-18T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>LC</Type>
+    <Particulars>ImportedPayments</Particulars>
+    <MT />
+    <Credit>4627671</Credit>
+    <Debit>0</Debit>
+    <Remain>4627671</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>43</ID>
+    <Date>2014-10-18T12:00:00</Date>
+    <DocChqNo>RTGS</DocChqNo>
+    <Type>LC</Type>
+    <Particulars>RTGS</Particulars>
+    <MT>0</MT>
+    <Credit>0</Credit>
+    <Debit>4627671</Debit>
+    <Remain>0</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+  <Payment>
+    <ID>40</ID>
+    <Date>2014-10-22T00:00:00</Date>
+    <DocChqNo>SBIN214295995638</DocChqNo>
+    <Type>BRct</Type>
+    <Particulars>ImportedPayments</Particulars>
+    <MT />
+    <Credit>6505</Credit>
+    <Debit>0</Debit>
+    <Remain>6505</Remain>
+    <NewDate />
+    <LastDate />
+    <Grade />
+    <color />
+    <Verified>false</Verified>
+    <HighlightThis>false</HighlightThis>
+    <CollectingAmount>0</CollectingAmount>
+  </Payment>
+</ArrayOfPayment>

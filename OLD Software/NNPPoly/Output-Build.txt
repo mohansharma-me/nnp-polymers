@@ -1,0 +1,8 @@
+﻿------ Build started: Project: Datastore, Configuration: Debug Any CPU ------
+D:\Projects\Visio\NNPPoly\Datastore\ListViewColumnSorter.cs(130,30): warning CS0168: The variable 'exx' is declared but never used
+
+Compile complete -- 0 errors, 1 warnings
+  Datastore -> D:\Projects\Visio\NNPPoly\Datastore\bin\Debug\Datastore.dll
+------ Build started: Project: NNPPoly, Configuration: Debug x86 ------
+  NNPPoly -> D:\Projects\Visio\NNPPoly\NNPPoly\bin\Debug\NNPPoly.exe
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========

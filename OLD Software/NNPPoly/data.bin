@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<DataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <noOfCopies>1</noOfCopies>
+  <UserAccountIDManager>0</UserAccountIDManager>
+  <DefualtLessDays>10</DefualtLessDays>
+  <noOfDebitNoteRows>8</noOfDebitNoteRows>
+  <noOfDebitAdviseRows>9</noOfDebitAdviseRows>
+  <currentDebitNoteID>0</currentDebitNoteID>
+  <currentDebitAdviseID>0</currentDebitAdviseID>
+  <printerName />
+  <sms_API>http://bulksms.hakimisolution.com/api/sendhttp.php?authkey=4600A09VyiPDe540d4d27&amp;mobiles=%numbers%&amp;message=%msg%&amp;sender=NNPRJT&amp;route=4</sms_API>
+  <sms_NoOfRequestDays>90</sms_NoOfRequestDays>
+  <mail_MyMail>nnp.poly@gmail.com</mail_MyMail>
+  <mail_Username>nnp.poly@gmail.com</mail_Username>
+  <mail_Password />
+  <msg_Collection>PL. ARRANGE PAYMENT TODAY &amp; SMS UTR NO.
+AMT RS. %amt%
+NAME: M/S. NAZARALLY NOORBHAI PATEL
+BANK: HDFC BANK
+ACCT NO: 01010440000137
+RTGS CODE: HDFC0000101</msg_Collection>
+  <msg_Dispatch>YOUR FOLLOWING MATERIAL IS DESPATCHED
+DATE: %date%
+GRADE: %grade%
+QTY: %qty%
+AMT: %amt%
+PLEASE ARRANGE RTGS TODAY</msg_Dispatch>
+  <msg_Stock>GRADE %grade% IS IN STOCK WITH RIL.
+PLACE YOUR VALUED ORDER SOON SO THAT WE MAY PUNCH YOUR ORDER WITH RIL.
+N.B. IT DOES NOT GAURANTEE ANY SUPPLY CONFIRMATION.</msg_Stock>
+  <msg_Request>SIR,
+YOU HAVE NOT LIFTED ANY QUANTITY SINCE LAST %days% DAYS.
+RIL CANCELLS SAP NAME REGISTRATION OF NON-ACTIVE CUSTOMER.
+TO REMAIN REGISTRED WITH RIL, PLEASE PLACE ORDER, EVEN OF SMALL QUANTITY, SOON.
+WITH REGARDS.</msg_Request>
+  <mail_From>FROM: M/S. NAZARALLY NOORBHAI PATEL, RAJKOT.</mail_From>
+  <mail_Collection>AN AMOUNT OF RS. %amt% IS OVERDUE, TODAY, AS PER DETAILS GIVEN BELOW&lt;br/&gt;&lt;br/&gt;PLEASE ARRANGE PAYMENT THROUGH RTGS TODAY AND GIVE UTR NO. THROUGH MAIL TO GET PROPER &amp; TIMELY CREDIT.</mail_Collection>
+  <mail_Despatch>PLEASE ARRANGE PAYMENT THROUGH RTGS TODAY TO AVAIL CASH DISCOUNT.</mail_Despatch>
+  <mail_Stock>&lt;b&gt;%grade% GRADE IS AVAILABLE.&lt;/b&gt; PLEASE PLACE YOUR VALUED ORDER, BY RETURN OF MAIL.&lt;br/&gt;N.B.&lt;br/&gt;THIS MESSAGE DOES NOT CONFIRM DELIVERY OF MATERIAL, AS ALLOCATION IS SUBJECT TO CONFIRMATION BY RIL.</mail_Stock>
+  <mail_Request>Sir,&lt;br/&gt;There is NIL order from your unit, since last %days% days. Please place an order of even small quantity, to revive our business relation.</mail_Request>
+  <titleOfaDNote>M/S NAZARALLY NOORBHAI PATEL</titleOfaDNote>
+  <addressOfaDNote>POLYMERS DIVISION "EXCEL HOUSE", OPP. RAJ BANK,
+PANCHNATH MAIN ROAD, RAJKOT - 360001,
+PHONE: 2242195, 2242196 FAX: (0281) 3046100
+EMAIL: nnp.poly@yahoo.com</addressOfaDNote>
+  <addressOfaDAdvise>"EXCEL HOUSE", OPP. RAJ BANK, PANCHNATH MAIN ROAD, RAJKOT - 360001. PHONE: 2242195, 2242196 FAX: (0281) 3046100 EMAIL: nnp.poly@yahoo.com</addressOfaDAdvise>
+  <descriptionRowOfaDNote>Being amount DEBITED, for Cash Discount allowed in Invoices, Which is reversed, due to preferring Credit Terms by you.</descriptionRowOfaDNote>
+  <Grades />
+  <SpecialTypes />
+  <PriorityTypes />
+  <UserAccounts />
+  <Records />
+  <DebitNotes />
+  <DebitAdvises />
+</DataFile>

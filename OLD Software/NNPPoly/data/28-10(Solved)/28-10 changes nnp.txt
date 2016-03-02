@@ -1,0 +1,15 @@
++1. Alignnment RightSide of 3,4 column in client.
++2. OB .00
++3. print client list
++4. filter period date match
++5. client name wise sorting
++6. mobile,mail compulsory
++7. general sms,mail
++8. sms format [enter]
+9. collection list print
+--------------------------------------------------
+
+29-10
+-1:old grades
+-2:finding clients
+

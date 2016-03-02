@@ -1,0 +1,2400 @@
+<?xml version="1.0"?>
+<DataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefualtLessDays>10</DefualtLessDays>
+  <Grades>
+    <Grade>
+      <GradeName>24FS040</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>22FA002</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>F18010</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>LL20FS010</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>H100EY</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>H030SG</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+    <Grade>
+      <GradeName>TEMP</GradeName>
+      <Amount>100</Amount>
+    </Grade>
+  </Grades>
+  <SpecialTypes />
+  <PriorityTypes>
+    <string>jrnl</string>
+  </PriorityTypes>
+  <UserAccounts>
+    <UserAccount>
+      <ID>1</ID>
+      <ClientName>mohan</ClientName>
+      <ClientDescription>amreli</ClientDescription>
+      <OpeningBalance>0</OpeningBalance>
+      <InterestRate1>20</InterestRate1>
+      <InterestRate2>24</InterestRate2>
+      <CutOffDays>20</CutOffDays>
+      <OBType>Debit</OBType>
+      <FooText>About</FooText>
+      <Payments>
+        <Payment>
+          <ID>1</ID>
+          <Date>2014-04-07T00:00:00</Date>
+          <DocChqNo>5080743280</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>269580</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>2</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.10/4/14</Particulars>
+          <Credit>1086189</Credit>
+          <Debit>0</Debit>
+          <Remain>1086189</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>3</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801018052 DT.10/4/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>13936</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>4</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5050180075</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>428542</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>5</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5060585311</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  440
+MT.                11.000</Particulars>
+          <MT>11.000</MT>
+          <Credit>0</Credit>
+          <Debit>1424420</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>6</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5060585312</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>647463</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>7</ID>
+          <Date>2014-04-18T00:00:00</Date>
+          <DocChqNo>5060586726</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>391486</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>8</ID>
+          <Date>2014-04-21T00:00:00</Date>
+          <DocChqNo>816198</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+HDFC BANK DT.21/4/14</Particulars>
+          <Credit>1424420</Credit>
+          <Debit>0</Debit>
+          <Remain>1424420</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>9</ID>
+          <Date>2014-04-21T00:00:00</Date>
+          <DocChqNo>5060587192</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>634899</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>10</ID>
+          <Date>2014-04-22T00:00:00</Date>
+          <DocChqNo>FT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+FT DT.22/4/14</Particulars>
+          <Credit>916985</Credit>
+          <Debit>0</Debit>
+          <Remain>916985</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>11</ID>
+          <Date>2014-04-23T00:00:00</Date>
+          <DocChqNo>5080748019</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>134790</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>12</ID>
+          <Date>2014-04-28T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.28/4/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>13</ID>
+          <Date>2014-05-01T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801027556 DT.1/5/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>13936</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>14</ID>
+          <Date>2014-05-01T00:00:00</Date>
+          <DocChqNo>5080749981</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2109636</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>15</ID>
+          <Date>2014-05-02T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF APRIL-14</Particulars>
+          <Credit>163472</Credit>
+          <Debit>0</Debit>
+          <Remain>163472</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>16</ID>
+          <Date>2014-05-02T00:00:00</Date>
+          <DocChqNo>2184</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.2/5/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>163472</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>17</ID>
+          <Date>2014-05-03T00:00:00</Date>
+          <DocChqNo>5080750636</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>137150</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>18</ID>
+          <Date>2014-05-12T00:00:00</Date>
+          <DocChqNo>5080752888</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>293577</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>19</ID>
+          <Date>2014-05-13T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.13/5/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>20</ID>
+          <Date>2014-05-13T00:00:00</Date>
+          <DocChqNo>5060590593</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>673182</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>21</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5050183737</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>439161</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>22</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5080753402</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>634899</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>23</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5080753428</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>277838</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>24</ID>
+          <Date>2014-05-15T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.15/5/14</Particulars>
+          <Credit>905847</Credit>
+          <Debit>0</Debit>
+          <Remain>905847</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>25</ID>
+          <Date>2014-05-24T00:00:00</Date>
+          <DocChqNo>816203</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+HDFC BANK DT.24/5/14</Particulars>
+          <Credit>769689</Credit>
+          <Debit>0</Debit>
+          <Remain>769689</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>26</ID>
+          <Date>2014-05-28T00:00:00</Date>
+          <DocChqNo>5060593433</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>403910</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>27</ID>
+          <Date>2014-05-29T00:00:00</Date>
+          <DocChqNo>5060593632</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>269273</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>28</ID>
+          <Date>2014-05-29T00:00:00</Date>
+          <DocChqNo>5080757106</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>380939</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>29</ID>
+          <Date>2014-05-30T00:00:00</Date>
+          <DocChqNo>5080757538</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   26
+MT.                 0.650</Particulars>
+          <MT>0.650</MT>
+          <Credit>0</Credit>
+          <Debit>90298</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>30</ID>
+          <Date>2014-05-30T00:00:00</Date>
+          <DocChqNo>5080757539</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  180
+MT.                 4.500</Particulars>
+          <MT>4.500</MT>
+          <Credit>0</Credit>
+          <Debit>605812</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>31</ID>
+          <Date>2014-06-02T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF MAY-14</Particulars>
+          <Credit>17700</Credit>
+          <Debit>0</Debit>
+          <Remain>17700</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>32</ID>
+          <Date>2014-06-02T00:00:00</Date>
+          <DocChqNo>2208</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.2/6/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>17700</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>33</ID>
+          <Date>2014-06-03T00:00:00</Date>
+          <DocChqNo>5080758560</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>667926</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>34</ID>
+          <Date>2014-06-03T00:00:00</Date>
+          <DocChqNo>5080758561</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>137869</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>35</ID>
+          <Date>2014-06-05T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.5/6/14</Particulars>
+          <Credit>1500000</Credit>
+          <Debit>0</Debit>
+          <Remain>1500000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>36</ID>
+          <Date>2014-06-10T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.10/6/14</Particulars>
+          <Credit>760722</Credit>
+          <Debit>0</Debit>
+          <Remain>760722</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>37</ID>
+          <Date>2014-06-11T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801046427 DT.11/6/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>18396</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>38</ID>
+          <Date>2014-06-11T00:00:00</Date>
+          <DocChqNo>5080760991</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  840
+MT.                21.000</Particulars>
+          <MT>21.000</MT>
+          <Credit>0</Credit>
+          <Debit>2781284</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>39</ID>
+          <Date>2014-06-14T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.14/6/14</Particulars>
+          <Credit>966759</Credit>
+          <Debit>0</Debit>
+          <Remain>966759</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>40</ID>
+          <Date>2014-06-18T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.18/6/14</Particulars>
+          <Credit>648835</Credit>
+          <Debit>0</Debit>
+          <Remain>648835</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>41</ID>
+          <Date>2014-06-18T00:00:00</Date>
+          <DocChqNo>5050186930</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>290414</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>42</ID>
+          <Date>2014-06-20T00:00:00</Date>
+          <DocChqNo>5080763770</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>275479</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>43</ID>
+          <Date>2014-06-21T00:00:00</Date>
+          <DocChqNo>5050287266</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  132
+MT.                 3.300</Particulars>
+          <MT>3.300</MT>
+          <Credit>0</Credit>
+          <Debit>479185</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>44</ID>
+          <Date>2014-06-21T00:00:00</Date>
+          <DocChqNo>5060597692</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>667283</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>45</ID>
+          <Date>2014-06-23T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.23/6/14</Particulars>
+          <Credit>716999</Credit>
+          <Debit>0</Debit>
+          <Remain>716999</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>46</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598477</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>291241</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>47</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598479</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   38
+MT.                 0.950</Particulars>
+          <MT>0.950</MT>
+          <Credit>0</Credit>
+          <Debit>120643</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>48</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598480</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  162
+MT.                 4.050</Particulars>
+          <MT>4.050</MT>
+          <Credit>0</Credit>
+          <Debit>514316</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>49</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5080765043</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>275479</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>50</ID>
+          <Date>2014-06-30T00:00:00</Date>
+          <DocChqNo>5080766841</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>413218</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>51</ID>
+          <Date>2014-07-02T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF JUNE-14</Particulars>
+          <Credit>34650</Credit>
+          <Debit>0</Debit>
+          <Remain>34650</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>52</ID>
+          <Date>2014-07-02T00:00:00</Date>
+          <DocChqNo>2231</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.02/07/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>34650</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>53</ID>
+          <Date>2014-07-04T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.4/7/14</Particulars>
+          <Credit>1054122</Credit>
+          <Debit>0</Debit>
+          <Remain>1054122</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>54</ID>
+          <Date>2014-07-05T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801059131 DT.5/7/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>14016</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>55</ID>
+          <Date>2014-07-05T00:00:00</Date>
+          <DocChqNo>5060600646</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2156827</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>56</ID>
+          <Date>2014-07-07T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.7/7/14</Particulars>
+          <Credit>833979</Credit>
+          <Debit>0</Debit>
+          <Remain>833979</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>57</ID>
+          <Date>2014-07-10T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.10/7/14</Particulars>
+          <Credit>667926</Credit>
+          <Debit>0</Debit>
+          <Remain>667926</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>58</ID>
+          <Date>2014-07-10T00:00:00</Date>
+          <DocChqNo>5050189227</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>439161</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>59</ID>
+          <Date>2014-07-14T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.14/7/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>60</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>J</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801063821 DT.15/7/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>14016</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>61</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>5060602475</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2175703</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>62</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>5080770512</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>410988</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+      </Payments>
+    </UserAccount>
+    <UserAccount>
+      <ID>2</ID>
+      <ClientName>some</ClientName>
+      <ClientDescription>some</ClientDescription>
+      <OpeningBalance>0</OpeningBalance>
+      <InterestRate1>21</InterestRate1>
+      <InterestRate2>24</InterestRate2>
+      <CutOffDays>20</CutOffDays>
+      <OBType>Debit</OBType>
+      <FooText>abc</FooText>
+      <Payments>
+        <Payment>
+          <ID>1</ID>
+          <Date>2014-04-07T00:00:00</Date>
+          <DocChqNo>5080743280</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>269580</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>2</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.10/4/14</Particulars>
+          <Credit>1086189</Credit>
+          <Debit>0</Debit>
+          <Remain>1086189</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>3</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801018052 DT.10/4/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>13936</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>4</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5050180075</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>428542</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>5</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5060585311</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  440
+MT.                11.000</Particulars>
+          <MT>11.000</MT>
+          <Credit>0</Credit>
+          <Debit>1424420</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>6</ID>
+          <Date>2014-04-10T00:00:00</Date>
+          <DocChqNo>5060585312</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>647463</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>7</ID>
+          <Date>2014-04-18T00:00:00</Date>
+          <DocChqNo>5060586726</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>391486</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>8</ID>
+          <Date>2014-04-21T00:00:00</Date>
+          <DocChqNo>816198</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+HDFC BANK DT.21/4/14</Particulars>
+          <Credit>1424420</Credit>
+          <Debit>0</Debit>
+          <Remain>1424420</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>9</ID>
+          <Date>2014-04-21T00:00:00</Date>
+          <DocChqNo>5060587192</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>634899</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>10</ID>
+          <Date>2014-04-22T00:00:00</Date>
+          <DocChqNo>FT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+FT DT.22/4/14</Particulars>
+          <Credit>916985</Credit>
+          <Debit>0</Debit>
+          <Remain>916985</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>11</ID>
+          <Date>2014-04-23T00:00:00</Date>
+          <DocChqNo>5080748019</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>134790</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>12</ID>
+          <Date>2014-04-28T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.28/4/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>13</ID>
+          <Date>2014-05-01T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801027556 DT.1/5/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>13936</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>14</ID>
+          <Date>2014-05-01T00:00:00</Date>
+          <DocChqNo>5080749981</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2109636</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>15</ID>
+          <Date>2014-05-02T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF APRIL-14</Particulars>
+          <Credit>163472</Credit>
+          <Debit>0</Debit>
+          <Remain>163472</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>16</ID>
+          <Date>2014-05-02T00:00:00</Date>
+          <DocChqNo>2184</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.2/5/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>163472</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>17</ID>
+          <Date>2014-05-03T00:00:00</Date>
+          <DocChqNo>5080750636</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>137150</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>18</ID>
+          <Date>2014-05-12T00:00:00</Date>
+          <DocChqNo>5080752888</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>293577</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>19</ID>
+          <Date>2014-05-13T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.13/5/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>20</ID>
+          <Date>2014-05-13T00:00:00</Date>
+          <DocChqNo>5060590593</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>673182</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>21</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5050183737</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>439161</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>22</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5080753402</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>634899</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>23</ID>
+          <Date>2014-05-14T00:00:00</Date>
+          <DocChqNo>5080753428</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>277838</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>24</ID>
+          <Date>2014-05-15T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.15/5/14</Particulars>
+          <Credit>905847</Credit>
+          <Debit>0</Debit>
+          <Remain>905847</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>25</ID>
+          <Date>2014-05-24T00:00:00</Date>
+          <DocChqNo>816203</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+HDFC BANK DT.24/5/14</Particulars>
+          <Credit>769689</Credit>
+          <Debit>0</Debit>
+          <Remain>769689</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>26</ID>
+          <Date>2014-05-28T00:00:00</Date>
+          <DocChqNo>5060593433</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>403910</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>27</ID>
+          <Date>2014-05-29T00:00:00</Date>
+          <DocChqNo>5060593632</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>269273</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>28</ID>
+          <Date>2014-05-29T00:00:00</Date>
+          <DocChqNo>5080757106</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>380939</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>29</ID>
+          <Date>2014-05-30T00:00:00</Date>
+          <DocChqNo>5080757538</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   26
+MT.                 0.650</Particulars>
+          <MT>0.650</MT>
+          <Credit>0</Credit>
+          <Debit>90298</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>30</ID>
+          <Date>2014-05-30T00:00:00</Date>
+          <DocChqNo>5080757539</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  180
+MT.                 4.500</Particulars>
+          <MT>4.500</MT>
+          <Credit>0</Credit>
+          <Debit>605812</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>31</ID>
+          <Date>2014-06-02T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF MAY-14</Particulars>
+          <Credit>17700</Credit>
+          <Debit>0</Debit>
+          <Remain>17700</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>32</ID>
+          <Date>2014-06-02T00:00:00</Date>
+          <DocChqNo>2208</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.2/6/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>17700</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>33</ID>
+          <Date>2014-06-03T00:00:00</Date>
+          <DocChqNo>5080758560</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>667926</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>34</ID>
+          <Date>2014-06-03T00:00:00</Date>
+          <DocChqNo>5080758561</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   40
+MT.                 1.000</Particulars>
+          <MT>1.000</MT>
+          <Credit>0</Credit>
+          <Debit>137869</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>35</ID>
+          <Date>2014-06-05T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.5/6/14</Particulars>
+          <Credit>1500000</Credit>
+          <Debit>0</Debit>
+          <Remain>1500000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>36</ID>
+          <Date>2014-06-10T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.10/6/14</Particulars>
+          <Credit>760722</Credit>
+          <Debit>0</Debit>
+          <Remain>760722</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>37</ID>
+          <Date>2014-06-11T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801046427 DT.11/6/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>18396</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>38</ID>
+          <Date>2014-06-11T00:00:00</Date>
+          <DocChqNo>5080760991</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  840
+MT.                21.000</Particulars>
+          <MT>21.000</MT>
+          <Credit>0</Credit>
+          <Debit>2781284</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>39</ID>
+          <Date>2014-06-14T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.14/6/14</Particulars>
+          <Credit>966759</Credit>
+          <Debit>0</Debit>
+          <Remain>966759</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>40</ID>
+          <Date>2014-06-18T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.18/6/14</Particulars>
+          <Credit>648835</Credit>
+          <Debit>0</Debit>
+          <Remain>648835</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>41</ID>
+          <Date>2014-06-18T00:00:00</Date>
+          <DocChqNo>5050186930</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>290414</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>42</ID>
+          <Date>2014-06-20T00:00:00</Date>
+          <DocChqNo>5080763770</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>275479</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>43</ID>
+          <Date>2014-06-21T00:00:00</Date>
+          <DocChqNo>5050287266</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  132
+MT.                 3.300</Particulars>
+          <MT>3.300</MT>
+          <Credit>0</Credit>
+          <Debit>479185</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>44</ID>
+          <Date>2014-06-21T00:00:00</Date>
+          <DocChqNo>5060597692</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  200
+MT.                 5.000</Particulars>
+          <MT>5.000</MT>
+          <Credit>0</Credit>
+          <Debit>667283</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>45</ID>
+          <Date>2014-06-23T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.23/6/14</Particulars>
+          <Credit>716999</Credit>
+          <Debit>0</Debit>
+          <Remain>716999</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>46</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598477</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>291241</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>47</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598479</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   38
+MT.                 0.950</Particulars>
+          <MT>0.950</MT>
+          <Credit>0</Credit>
+          <Debit>120643</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>48</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5060598480</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  162
+MT.                 4.050</Particulars>
+          <MT>4.050</MT>
+          <Credit>0</Credit>
+          <Debit>514316</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>49</ID>
+          <Date>2014-06-25T00:00:00</Date>
+          <DocChqNo>5080765043</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                   80
+MT.                 2.000</Particulars>
+          <MT>2.000</MT>
+          <Credit>0</Credit>
+          <Debit>275479</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>50</ID>
+          <Date>2014-06-30T00:00:00</Date>
+          <DocChqNo>5080766841</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>413218</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>51</ID>
+          <Date>2014-07-02T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>C/N</Type>
+          <Particulars>RIL PAYMENT A/C
+BEING AMT OF CN ISSUED BY RIL DIRECTLY CREDITED HEREBY TO ASIAN FLEXIPACK INDIA P.LTD FOR THE MONTH OF JUNE-14</Particulars>
+          <Credit>34650</Credit>
+          <Debit>0</Debit>
+          <Remain>34650</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>52</ID>
+          <Date>2014-07-02T00:00:00</Date>
+          <DocChqNo>2231</DocChqNo>
+          <Type>BPmt</Type>
+          <Particulars>HDFC BANK A/C NO.01010430001032
+HDFC BANK DT.02/07/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>34650</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>53</ID>
+          <Date>2014-07-04T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.4/7/14</Particulars>
+          <Credit>1054122</Credit>
+          <Debit>0</Debit>
+          <Remain>1054122</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>54</ID>
+          <Date>2014-07-05T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801059131 DT.5/7/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>14016</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>55</ID>
+          <Date>2014-07-05T00:00:00</Date>
+          <DocChqNo>5060600646</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2156827</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>56</ID>
+          <Date>2014-07-07T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.7/7/14</Particulars>
+          <Credit>833979</Credit>
+          <Debit>0</Debit>
+          <Remain>833979</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>57</ID>
+          <Date>2014-07-10T00:00:00</Date>
+          <DocChqNo>NEFT</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+NEFT DT.10/7/14</Particulars>
+          <Credit>667926</Credit>
+          <Debit>0</Debit>
+          <Remain>667926</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>58</ID>
+          <Date>2014-07-10T00:00:00</Date>
+          <DocChqNo>5050189227</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>439161</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>59</ID>
+          <Date>2014-07-14T00:00:00</Date>
+          <DocChqNo>RTGS</DocChqNo>
+          <Type>BRct</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+RTGS DT.14/7/14</Particulars>
+          <Credit>1000000</Credit>
+          <Debit>0</Debit>
+          <Remain>1000000</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>60</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>UNK</DocChqNo>
+          <Type>Jrnl</Type>
+          <Particulars>FINETECH CORPORATION PVT.LTD
+BEING AMT PAID ON YOUR BEHALF TO FINETECH CORPORATION PVT.LTD FREIGHT CHARGE AS PER INV.NO.801063821 DT.15/7/14</Particulars>
+          <MT>0</MT>
+          <Credit>0</Credit>
+          <Debit>14016</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>61</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>5060602475</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  640
+MT.                16.000</Particulars>
+          <MT>16.000</MT>
+          <Credit>0</Credit>
+          <Debit>2175703</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+        <Payment>
+          <ID>62</ID>
+          <Date>2014-07-15T00:00:00</Date>
+          <DocChqNo>5080770512</DocChqNo>
+          <Type>Sale</Type>
+          <Particulars>HDFC BANK A/C NO.01010440000137
+BEING AMT. PAID ON YOUR BEHALF TO RIL
+BAGS                  120
+MT.                 3.000</Particulars>
+          <MT>3.000</MT>
+          <Credit>0</Credit>
+          <Debit>410988</Debit>
+          <Remain>0</Remain>
+          <DaysCalc>false</DaysCalc>
+          <dcFlow>false</dcFlow>
+          <NewDate />
+          <LastDate />
+          <Grade />
+          <color />
+        </Payment>
+      </Payments>
+    </UserAccount>
+  </UserAccounts>
+</DataFile>

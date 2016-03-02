@@ -1,0 +1,5 @@
+D:\Projects\Visio\NNPPoly\Datastore\bin\Debug\Datastore.dll
+D:\Projects\Visio\NNPPoly\Datastore\bin\Debug\Datastore.pdb
+D:\Projects\Visio\NNPPoly\Datastore\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Visio\NNPPoly\Datastore\obj\Debug\Datastore.dll
+D:\Projects\Visio\NNPPoly\Datastore\obj\Debug\Datastore.pdb
