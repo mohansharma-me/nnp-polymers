@@ -8,6 +8,8 @@ They contacted us and we suggested IT solution for all their problem. Solution f
 
 They were having many complex requirements that I addressed one-by-one. Complex requirements like multiple interest rates (rate changes for days/months/years long dues), stressful mathematical monthly reports, administrator can request orders from client on one-click (without selecting materials – software is supposed to choose materials automatically as per transaction history), different types of debit methods (each method having different strict rules), lots of excel interop operations etc…
 
+This project includes website development as well as mobile application development for order inquiries and creation. Website is used as introductory cum portfolio website and mobile application is used by their clients to inquiries materials as well as order status and place order directly.
+
 In short it was one of the biggest project I completed there.
 
 I’ve uploaded source code at http://github.com/mohansharma-me/nnp-polymers.
